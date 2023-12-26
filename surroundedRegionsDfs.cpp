@@ -1,3 +1,11 @@
+/*
+Given a 2D board containing 'X' and 'O' (as characters), capture all regions surrounded by 'X'. A region is captured if it is surrounded by 'X' on all sides.
+
+The algorithm should modify the board in-place, flipping all 'O's that are not surrounded by 'X' to 'X', while keeping the boundaries and 'X's unchanged.
+
+In summary, the task is to identify and flip the regions of 'O's that are not surrounded by 'X' on all sides within the 2D board.
+*/
+
 #include <iostream>
 using namespace std;
 
