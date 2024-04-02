@@ -31,6 +31,6 @@ private:
             leftBound--;
             rightBound++;
         }
-        return s.substr(leftBound + 1, rightBound - leftBound - 1);
+        return s.substr(leftBound + 1, (rightBound - 1) - leftBound);
     }
 };
